@@ -28,7 +28,7 @@ For more information about the app architecture, backend setup, and API document
 
 1. Clone the Backend Repository
 ```bash
-git clone https://github.com/miwgu/AI_Developer_Assistant_Frontend.git
+git clone https://github.com/harshmriduhash/AI_Developer_Assistant_Frontend.git
 ```
 2. Install Dependencies
 ```bash
