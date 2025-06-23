@@ -13,7 +13,9 @@ export const fetchChatLog = async (): Promise<ChatEntry[]> => {
   return res.json();
 };
 
-export const postQuery = async (message: string): Promise<ReadableStream<Uint8Array>> => {
+export const postQuery = async (
+  message: string
+): Promise<ReadableStream<Uint8Array>> => {
   const res = await fetch(`${BASE_URL}/api/query`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
