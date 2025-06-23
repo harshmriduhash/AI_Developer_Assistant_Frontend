@@ -12,7 +12,8 @@ export const useChat = () => {
     try {
       const data = await fetchChatLog();
       const sorted = data.sort(
-        (a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime()
+        (a, b) =>
+          new Date(a.created_at).getTime() - new Date(b.created_at).getTime()
       );
       setChatLog(sorted);
     } catch (err: any) {
